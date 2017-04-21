@@ -46,9 +46,9 @@ class ZhihuspiderSpider(scrapy.Spider):
     											headers=self.headers,
     											formdata={
     												'_xsrf':_xsrf,
-    												'password':'guang1302',
+    												'password':'********',
     												'captcha_type':'cn',
-    												'phone_num':'18310381978'
+    												'phone_num':'*********'
     											},
     											callback=self.after_login,
     											dont_filter=True
